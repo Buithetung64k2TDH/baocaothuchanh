@@ -16,10 +16,10 @@ window.geometry("400x400")
 info_frame = tk.Frame(window)
 info_frame.pack(pady=20)
 
-name_label = tk.Label(info_frame, text="Họ và Tên: Trần Văn Tú", font=("Arial", 12))
+name_label = tk.Label(info_frame, text="Họ và Tên: Bùi Thế Tùng", font=("Arial", 12))
 name_label.grid(row=0, column=0, sticky="w")
 
-dob_label = tk.Label(info_frame, text="Ngày Sinh: 16/12/2004", font=("Arial", 12))
+dob_label = tk.Label(info_frame, text="Ngày Sinh: 24/04/2005", font=("Arial", 12))
 dob_label.grid(row=1, column=0, sticky="w")
 
 mssv_label = tk.Label(info_frame, text="MSSV: 235752021610056", font=("Arial", 12))
